@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+
+p{
+    font-size:medium ;
+    font-family: 'Times New Roman', Times, serif;
+    color: deeppink;
+}
+
+.titulo{
+    color: green;
+}
+
+#htexto{
+color: blue;
+}
+
+#imagen{
+    background-image: url("../graficación/IMG/2.jpg");
+   background-size: 50%;
+
+}
