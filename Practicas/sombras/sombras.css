@@ -1,0 +1,55 @@
+/*Estilos generales*/
+div{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto 50px;
+	border-radius:  10px;
+}
+
+body{
+	margin-top: 30px;
+	background: #2233f;
+}
+
+
+/*Estilos de sombreado*/
+.shadow{
+	box-shadow: 20px 20px 20px rgba(0,0,0,.4);
+	background: #ACC21F;
+}
+
+.inset{
+	box-shadow: inset 3px 3px 5px rgba(0,0,0,.7);
+	background: #2eC21F;
+}
+
+.highlight{
+	box-shadow: inset 3px 3px 5px rgba(0,0,0,.4);
+	background: #f0a500;
+}
+
+.spread{
+	box-shadow: 0 0 20px 20px rgba(15, 2, 76,.4);
+	background: #564550;
+}
+
+.fake-border{
+	box-shadow: 0 10px 0 #2eaaf4;
+	background: #564550;
+}
+
+.double{
+	box-shadow: 0 10px 0 #2eaaf4,
+				0 0 20px 15px rgba(0,0,0,.4);
+	background: #f0a500;
+	border-radius:  0;
+}	
+
+.multiple-borders{
+	box-shadow:0 0 0 5px #acc21f,
+			   0 0 0 10px #2eaaf4,
+			   0 0 0 15px #f0a500,
+			   0 0 0 20px #f28bff;
+	background: #fefde9;
+	border-radius:  0;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(26, 35, 199);
+}
+
+.mapadiv{
+    width: 40%;
+    margin: auto;
+}
+
+.mapadiv path{
+    fill: burlywood;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.mapadiv :hover{
+    fill: #800000;
+}

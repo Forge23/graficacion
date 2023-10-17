@@ -1,0 +1,43 @@
+/*Estilos generales*/
+
+div{
+	width: 100%;
+	height:  200px;
+	margin: 10px;
+	box-shadow: 0 5px 10px rgba(0,0,0,.7);
+}
+
+body{
+	margin: 0;
+	background: #f7f6e6;
+	margin-bottom: 500px;
+}
+
+/*Etiquetas de gradientes radiales*/
+
+.gradient1{
+	background: radial-gradient(#00ff00, #bd15ff);
+}
+
+.gradient2{
+	background: radial-gradient(circle,#00ff00, #bd15ff);
+}
+
+.gradient3{
+	background: radial-gradient(circle,#00ff00, #bd15ff);
+}
+
+.gradient4{
+	background: radial-gradient(circle,#00ff00, #bd15ff 20%,#00ff00 40%, #bd15ff 60%);
+}
+
+.gradient5{
+	background: radial-gradient(circle,#00ff00, #00ff00 20%, #bd15ff 20%, #bd15ff 40%,
+		#00ff00 40%, #00ff00 60%,#bd15ff 60%);
+	background-size: 10px 50px;
+}
+
+.gradient6{
+	background: repeating-radial-gradient(circle at top left,#00ff00, #00ff00 20px, #bd15ff 20px, #bd15ff 40px);
+		
+}
