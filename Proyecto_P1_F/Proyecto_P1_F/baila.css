@@ -1,0 +1,102 @@
+body{
+    background-image:url(fondo.png);
+    background-size:cover
+    
+}
+
+#espiritu{
+    scale: 0.2;
+    transform: translate(1000px, 800px);
+    opacity: 0;
+    animation: asciende 2000ms
+    linear infinite normal forwards;
+}
+
+@keyframes asciende {
+    0%{
+        opacity: 0; transform: translate(1000px,800px );
+    }
+    50%{
+        opacity: 1; transform: translate(1000px,700px );
+    }
+    100%{
+        opacity: 0; transform: translate(1000px,500px );
+    }
+    
+}
+
+#notas{
+    opacity: 0;
+    scale: 0.5;
+ animation: aparecer 3000ms
+ linear infinite normal forwards
+}
+
+@keyframes aparecer {
+    0% 
+        {opacity: 0; transform: translate(0px,0px)  } 
+        25% 
+        {opacity: 1; transform:  translate(0px,-25px) } 
+        50% 
+        {opacity: 0; transform: translate(0px,-50px)  } 
+        75% 
+        {opacity: 0; transform:  translate(0px,0px)  } 
+        100% 
+        {opacity: 0; transform:  translate(0px,0px)  }
+}
+
+#notas2{
+    opacity: 0;
+    scale: 0.5;
+    
+ animation: aparecer 3500ms
+ linear infinite normal forwards
+}
+
+@keyframes aparecer2 {
+    0% 
+        {opacity: 0; transform: translate(0px,0px)  } 
+        25% 
+        {opacity: 1; transform:  translate(0px,-25px) } 
+        50% 
+        {opacity: 0; transform: translate(0px,-50px)  } 
+        75% 
+        {opacity: 0; transform:  translate(0px,0px)  } 
+        100% 
+        {opacity: 0; transform:  translate(0px,0px)  }
+}
+
+#notas3{
+    opacity: 0;
+    scale: 0.5;
+ animation: aparecer 4000ms
+ linear infinite normal forwards
+}
+
+@keyframes aparecer3 {
+    0% 
+        {opacity: 0; transform: translate(0px,0px)  } 
+        25% 
+        {opacity: 1; transform:  translate(0px,-25px) } 
+        50% 
+        {opacity: 0; transform: translate(0px,-50px)  } 
+        75% 
+        {opacity: 0; transform:  translate(0px,0px)  } 
+        100% 
+        {opacity: 0; transform:  translate(0px,0px)  }
+}
+
+
+#guitarra {
+    scale: 0.5;
+    animation: baila 3000ms 
+    linear infinite normal forwards
+}
+@keyframes baila
+ { 
+0% {transform: translate(200.262909px,128.14771px) rotate(0deg)} 
+20% {transform: translate(250.262909px,128.14771px) rotate(16.076953deg)} 
+46.666667% {transform: translate(300.262909px,128.14771px) rotate(-0.00992deg)} 
+73.333333% {transform: translate(250.262909px,128.14771px) rotate(-19.503937deg)} 
+100% {transform: translate(200.262909px,128.14771px) rotate(-0.113521deg)}
+ }
